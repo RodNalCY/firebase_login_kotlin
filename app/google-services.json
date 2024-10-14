@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "652785576021",
+    "project_id": "fir-login-7a6a6",
+    "storage_bucket": "fir-login-7a6a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652785576021:android:e00763a92bed6fe4a8ccdc",
+        "android_client_info": {
+          "package_name": "com.rodnal.dev.login_google"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClMrdoOLDvx8D0iOVUykBBZlnS52DKWAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
