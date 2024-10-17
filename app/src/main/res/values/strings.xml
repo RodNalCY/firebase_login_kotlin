@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">login_google</string>
     <string name="default_web_client_id">652785576021-ftpse90cvhod1p3f6avi16tresejp43b.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">1085169469923065</string>
+    <string name="fb_login_protocol_scheme">fb1085169469923065</string>
+    <string name="facebook_client_token">83630eb304bf6f1f9ff180db8a99089e</string>
 </resources>

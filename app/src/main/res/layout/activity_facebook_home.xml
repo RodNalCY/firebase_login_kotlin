@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context=".HomeActivity">
-
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacebookHomeActivity">
 
 
     <LinearLayout
@@ -16,7 +16,7 @@ tools:context=".HomeActivity">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bienvenido a Google"
+            android:text="Bienvenido a Facebook"
             android:textAlignment="center"
             android:textSize="30sp"
             android:padding="10dp"
@@ -24,7 +24,7 @@ tools:context=".HomeActivity">
             android:textFontWeight="100"/>
 
         <EditText
-            android:id="@+id/name"
+            android:id="@+id/txtName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -34,7 +34,7 @@ tools:context=".HomeActivity">
             android:layout_marginBottom="20dp"/>
 
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/txtEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -70,6 +70,5 @@ tools:context=".HomeActivity">
             tools:ignore="HardcodedText" />
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

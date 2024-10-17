@@ -47,8 +47,7 @@
             android:textSize="20sp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/facebook_login_button"
-
+            android:id="@+id/facebook_login_button_custom"
             style="?android:textAppearanceSmall"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -64,6 +63,26 @@
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="20sp" />
+
+      <!--  <com.facebook.login.widget.LoginButton
+            android:id="@+id/facebook_login_button_sdk"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/corner_boton_outline"
+            android:drawableStart="@drawable/ic_facebook"
+            android:fontFamily="@font/product_sans_regular"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:paddingTop="13dp"
+            android:paddingBottom="13dp"
+            android:paddingEnd="30px"/>-->
 
 
     </LinearLayout>
